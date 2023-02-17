@@ -2,6 +2,15 @@
 @use './partials/sizes' as *;
 @use './partials/colors' as *;
 
+@mixin circle {
+	width: 100px;
+	height: 100px;
+	margin: 30px auto;
+	background-color: $circle-color;
+	border: 3px solid $border-color;
+	border-radius: 50%;
+}
+
 html {
 	font-size: 10px;
 }
