@@ -11,4 +11,27 @@ html {
 body {
   background-color: #333;
   font-family: sans-serif;
+}
+
+section {
+  height: 25vh;
+  width: 100%;
+  text-align: center;
+}
+section h1 {
+  color: rgb(215, 201, 0);
+}
+section h2 {
+  color: rgb(215, 201, 0);
+}
+section h3 {
+  color: rgb(215, 201, 0);
+}
+
+.odd {
+  background-color: rgb(65, 105, 225);
+}
+
+.even {
+  background-color: rgb(88, 123, 227);
 }/*# sourceMappingURL=style.css.map */
