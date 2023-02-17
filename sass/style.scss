@@ -24,13 +24,19 @@ section {
 	width: $width;
 	text-align: center;
 	h1 {
+		font-size: $big;
 		color: $h-color;
 	}
 	h2 {
+		font-size: $medium;
 		color: $h-color;
 	}
 	h3 {
+		font-size: $small;
 		color: $h-color;
+	}
+	p {
+		font-size: $paragraph;
 	}
 	div {
 		@include circle;
