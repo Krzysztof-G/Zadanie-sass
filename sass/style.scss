@@ -1,9 +1,10 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
+@use './partials/reset' as *;
+@use './partials/sizes' as *;
 
-body{
-    background-color: #333;
+html {
+	font-size: 10px;
+}
+body {
+	background-color: #333;
+	font-family: sans-serif;
 }
