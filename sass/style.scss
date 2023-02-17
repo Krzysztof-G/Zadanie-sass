@@ -32,6 +32,9 @@ section {
 	h3 {
 		color: $h-color;
 	}
+	div {
+		@include circle;
+	}
 }
 .odd {
 	background-color: $color-dark;
